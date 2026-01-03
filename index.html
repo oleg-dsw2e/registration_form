@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="form-wrapper">
+  <form>
+    <!-- Registration data -->
+    <div class="block">
+      <h2>Registration form</h2>
+
+      <div class="field">
+        <img src="icons/user.svg" alt="user" />
+        <input type="text" placeholder="Username" />
+      </div>
+
+      <div class="field">
+        <img src="icons/email.svg" alt="email" />
+        <input type="email" placeholder="Email address" />
+      </div>
+
+      <div class="row">
+        <div class="field">
+            <img src="icons/lock.svg" alt="password">
+            <input type="password" placeholder="Password">
+        </div>
+
+        <div class="field">
+            <img src="icons/lock.svg" alt="confirm password">
+            <input type="password" placeholder="Confirm password">
+        </div>
+       </div>
+      <div class="field">
+        <img src="icons/lock.svg" alt="confirm" />
+        <input type="password" placeholder="Confirm password" />
+      </div>
+    </div>
+
+    <!-- Personal details -->
+    <div class="block">
+      <h2>Personal details</h2>
+
+      <div class="field">
+        <img src="icons/user.svg" alt="first name">
+        <input type="text" placeholder="First name">
+      </div>
+
+      <div class="field">
+        <img src="icons/user.svg" alt="last name">
+        <input type="text" placeholder="Last name">
+      </div>
+
+      <div class="field">
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <input type="date" />
+      </div>
+    </div>
+
+    <!-- Subscriptions -->
+    <div class="checkboxes">
+      <label>
+        <input type="checkbox" /> I want to receive news and special offers
+      </label>
+      <label>
+        <input type="checkbox" /> I agree with the Terms and Conditions
+      </label>
+    </div>
+
+    <!-- Submit -->
+    <div class="actions">
+      <button type="submit">SUBMIT</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
